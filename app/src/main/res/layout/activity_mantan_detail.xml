@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="39dp"
+        tools:context=".AboutActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:fontFamily="@font/lora_bold"
+            android:textColor="#4A4A4A"
+            android:text="MantanApps"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lora_regular"
+            android:textSize="14sp"
+            android:textColor="#4A4A4A"
+            android:text="Here Lies Our Hopers And Dreams"/>
+
+        <ImageView
+            android:id="@+id/img_mantan"
+            android:background="@drawable/rounded_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mantan_1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lora_regular"
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:text="Nama Lengkap :"/>
+
+        <TextView
+            android:id="@+id/txt_nama_mantan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lora_bold"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:text="Ariel Tatum"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lora_regular"
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:text="Tempat dan Tanggal Lahir :"/>
+
+        <TextView
+            android:id="@+id/txt_ttl_mantan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lora_bold"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:text="Bandung, 06 Oktober 1998"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lora_regular"
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:text="Lama Pacaran :"/>
+
+        <TextView
+            android:id="@+id/txt_lama_pacaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lora_bold"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:text="5 Tahun"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lora_regular"
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:text="Alasan Putus :"/>
+
+        <TextView
+            android:id="@+id/txt_alasan_putus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lora_bold"
+            android:textSize="18sp"
+            android:lineHeight="30dp"
+            android:layout_marginTop="5dp"
+            android:text="Gatau kenapa"/>
+
+
+        <Button
+            android:id="@+id/btn_kembali_detail"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:padding="15dp"
+            android:textColor="@color/putih"
+            android:background="@drawable/rounded_button"
+            android:fontFamily="@font/lora_bold"/>
+    </LinearLayout>
+
+</ScrollView>

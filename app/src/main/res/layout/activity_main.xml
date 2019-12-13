@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/putih">
+
+    <ImageView
+        android:id="@+id/img_header"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="-25dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginRight="-1dp"
+        android:src="@drawable/header2" />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_below="@id/img_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lora_bold"
+        android:textSize="20sp"
+        android:textColor="#575757"
+        android:layout_marginTop="-20dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="List Mantan Ku"/>
+
+        <ScrollView
+            android:layout_marginTop="20dp"
+            android:id="@+id/sc_view"
+            android:layout_below="@id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbars="none"
+            tools:context=".MainActivity">
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:id="@+id/wraper"
+                    android:layout_below="@id/img_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/putih"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recycler_list_mantan"
+                        android:layout_marginTop="5dp"
+                        android:scrollbars="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <Button
+                        android:layout_below="@id/recycler_list_mantan"
+                        android:id="@+id/btn_about"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="25dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_button"
+                        android:fontFamily="@font/lora_bold"
+                        android:text="About Me"
+                        android:foreground="?selectableItemBackgroundBorderless"
+                        android:textColor="@color/putih"/>
+
+                </LinearLayout>
+
+            </android.support.v4.widget.NestedScrollView>
+
+        </ScrollView>
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+

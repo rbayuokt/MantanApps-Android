@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="39dp"
+        tools:context=".AboutActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:fontFamily="@font/lora_bold"
+            android:textColor="#4A4A4A"
+            android:text="About Me"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lora_regular"
+            android:textSize="14sp"
+            android:textColor="#4A4A4A"
+            android:text="Only Me"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_bayu"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/bayuava2"/>
+
+        <!--<ImageView-->
+            <!--android:background="@drawable/rounded_img"-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:layout_marginTop="50dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:src="@drawable/bayuava2"/>-->
+
+        <TextView
+            android:fontFamily="@font/lora_regular"
+            android:textColor="#575757"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:lineHeight="23.52sp"
+            android:layout_marginTop="30dp"
+            android:text="@string/bio"/>
+
+        <Button
+            android:id="@+id/btn_kembali"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:padding="15dp"
+            android:textColor="@color/putih"
+            android:background="@drawable/rounded_button"
+            android:fontFamily="@font/lora_bold"/>
+    </LinearLayout>
+
+</ScrollView>

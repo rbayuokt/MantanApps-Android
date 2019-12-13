@@ -5,3 +5,12 @@ mantanApps menceritakan daftar list mantan - mantan saya yang saya jadikan aplik
 # Screenshoot
 
 berikut ini adalah screenshoot dari aplikasi yang saya buat :
+
+**Dashboard**<br><br>
+<img src="screenshoot/dashboard.png" width="300px" /><br>
+
+**Detail**<br><br>
+<img src="screenshoot/detail.png" width="300px" /><br>
+
+**About**<br><br>
+<img src="screenshoot/about.png" width="300px" /><br>

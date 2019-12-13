@@ -10,7 +10,7 @@ berikut ini adalah screenshoot dari aplikasi yang saya buat :
 <img src="screenshoot/dashboard.png" width="300px" /><br>
 
 **Detail**<br><br>
-<img src="screenshoot/detail.png" width="300px" /><br>
+<img src="screenshoot/detail.jpg" width="300px" /><br>
 
 **About**<br><br>
 <img src="screenshoot/about.png" width="300px" /><br>

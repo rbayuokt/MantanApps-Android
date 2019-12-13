@@ -14,3 +14,6 @@ berikut ini adalah screenshoot dari aplikasi yang saya buat :
 
 **About**<br><br>
 <img src="screenshoot/about.png" width="300px" /><br>
+
+made with :heart: in Cimahi Padasuka by @rbayuokt
+
